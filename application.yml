@@ -1,0 +1,24 @@
+server:
+  port: 3344
+spring:
+  profiles:
+    active:
+    - dev
+
+---
+spring:
+  application:
+    name: microservicecloud-config-taboo-dev
+  profiles: dev
+---
+
+---
+spring:
+  application:
+    name: microservicecloud-config-taboo-test
+  profiles: test
+---
+
+
+
+
